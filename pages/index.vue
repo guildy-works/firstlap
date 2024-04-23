@@ -1,7 +1,9 @@
 <template>
     <div>
         <NuxtLayout name="default">
-            <h1><img src="/img/fl_main.png" alt="FIRSTLAP" /></h1>
+            <h1>
+                <NuxtImg src="/img/fl_main.png" alt="FIRSTLAP" />
+            </h1>
             <p class="CompanyTheme">
                 <span>地球にやさしく、</span>
                 <span>人にやさしくなれる世の中に。</span>
@@ -9,13 +11,13 @@
             <section id="Product">
                 <div class="SectionHead">
                     <p>プロダクトラインナップ<span>Product Lineup</span></p>
-                    <img src="/img/product_main.jpg" alt="プロダクトラインナップ" />
+                    <NuxtImg src="/img/product_main.jpg" alt="プロダクトラインナップ" />
                 </div>
                 <div class="ProductTable">
                     <div class="ProductCell">
                         <div class="ProductCellInner">
                             <div class="ProductImage">
-                                <img src="/img/rig1.jpg" alt="BTOパソコン - THE MASTER - シリーズ" />
+                                <NuxtImg src="/img/rig1.jpg" alt="BTOパソコン - THE MASTER - シリーズ" />
                             </div>
                             <div class="ProductDescription">
                                 <p class="ProductTitle">BTOパソコン - THE MASTER - シリーズ</p>
@@ -36,7 +38,7 @@
                     <div class="ProductCell">
                         <div class="ProductCellInner">
                             <div class="ProductImage">
-                                <img src="/img/rig2.jpg" alt="ポータブルバッテリー" />
+                                <NuxtImg src="/img/rig2.jpg" alt="ポータブルバッテリー" />
                             </div>
                             <div class="ProductDescription">
                                 <p class="ProductTitle">ポータブルバッテリー</p>
@@ -52,7 +54,7 @@
                     <div class="ProductCell">
                         <div class="ProductCellInner">
                             <div class="ProductImage">
-                                <img src="/img/rig3.jpg" alt="O3O" />
+                                <NuxtImg src="/img/rig3.jpg" alt="O3O" />
                             </div>
                             <div class="ProductDescription">
                                 <p class="ProductTitle">O3O</p>
